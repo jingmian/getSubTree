@@ -1,4 +1,5 @@
 ##子孙树的实现
+
 ```php
 $address = array(
     array('id'=>1  , 'address'=>'安徽' , 'parent_id' => 0),
@@ -17,6 +18,7 @@ $address = array(
 ```
 
 ###代码
+
 ```php
 function getSubTree($data , $id = 0) {
     $task = array($id);                       # 栈 任务表
